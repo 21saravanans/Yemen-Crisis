@@ -1,0 +1,147 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Hello!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="/script.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=News+Cycle:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+<!--     <div class="logoHeader"> -->
+     
+      <nav class="container">
+        <a href="/index.html"><img class="logoTop" src="https://lh5.googleusercontent.com/Uj-8E7qge7BGeYQXGjSIGnxdYK16shZmOmhXIIPkMGaNvFJ4kU9kEBOA1SQXILlLDjE-CkQESYyiVWrfI9nb22qVR8qXg2BQVTxFMkGZmVEvMSaSFIjj58wT8Y2bzDTsViRqQzTlT2g" alt="logo"></a>
+        <h3 class="name">
+        Our Lives Around the World
+        </h3>
+<!--    </div> -->
+<!--       <nav class="navigationBar"> -->
+        <h2 class="navBar">
+          <a href="/countries.html" class="option">COUNTRIES</a>
+          <a href="/community.html" class="option">COMMUNITY</a>
+          <a href="/penpal.html" class="button"> GET A PENPAL!</a>
+        </h2>
+      </nav>
+  </div>
+    
+    <section class="postBody">
+    <h2 class="userUploads">ALL USER UPLOADS</h2>
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> SHOW ALL</button>
+      <button class="btn" onclick="filterSelection('posts')"> POSTS </button>
+      <button class="btn" onclick="filterSelection('stories')"> STORIES</button>
+      <button class="btn" onclick="filterSelection('photos')"> PHOTO GALLERY</button>
+    </div>
+
+    <!-- Portfolio Gallery Grid -->
+    <div class="rowGallery">
+        <div class="column3 posts">
+            <div class="content">
+              <h5> LIFE UPDATE IN <a href="/argentina.html">ARGENTINA</a> <p class="postText">Hey everyone! I hope everyone has been staying safe and healthy. I have been living in Argentina for about 5 years now and I love it here! Though, due to the coronavirus, I have been unable to go out much. The virus has caused a nationwide lockdown! I think everyone should be practicing social distancing to help the healthcare workers working to save the people of the world. I'll update you all sometime in the future! Adios! </p></h5>
+              <p class="dateText">
+                6/1/2020 by <u>User</u>
+              </p>
+                
+            </div>
+        </div>
+        <div class="column3 photos">
+          <div class="content">
+            <img class="column2" src="https://i.pinimg.com/564x/9f/85/fd/9f85fdeff4b6903b21b0cca28d3b0ba9.jpg" alt="Lights" style="width:100%">
+            <h4>ME IN <a href="ghana.html">GHANA</a></h4>
+            <p class="postText">My day in Ghana</p>
+            <p class="dateText">
+                5/29/2020 by <u>User</u>
+              </p>
+          </div>
+        </div>
+        <div class="column3 photos">
+          <div class="content">
+            <img class="column2" src="https://i.pinimg.com/564x/47/7a/c4/477ac4cf80390b62ae0b737a598f4575.jpg" alt="Nature" style="width:100%">
+            <h4>TODAY IN <a href="/southkorea.html">SOUTH KOREA</a></h4>
+            <p class="postText">안녕! This is a picture from today.</p>
+            <p class="dateText">
+                5/20/2020 by <u>User</u>
+              </p>
+          </div>
+        </div>
+
+      <div class="column3 photos">
+        <div class="content">
+          <img class="column2" src="https://i.pinimg.com/564x/1c/fb/b2/1cfbb2c22f17abbd7cf16f7323f9c5ae.jpg" alt="Car" style="width:100%">
+          <h4>KOLKATTA, <a href="/india.html">INDIA</a></h4>
+          <p class="postText">Had a good day today.</p>
+          <p class="dateText">
+                5/12/2020 by <u>User</u>
+            </p>
+        </div>
+      </div>
+      <div class="column3 stories">
+        <div class="content">
+          <h5> MY LIFE IN <a href="/mexico.html">MEXICO</a><p class="postStory">Hi, I'm Isabella. I have lived in Mexico my entire life, and I love it alot. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <p class="postStory">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+            </p></h5>
+          <p class="dateText">
+                5/10/2020 by <u>User</u>
+            </p>
+        </div>
+      </div>
+      <div class="column3 posts">
+            <div class="content">
+              <h5> A FUN FACT ABOUT <a href="/ecuador.html">ECUADOR</a> <p class="postText">Did you know that since Equador is located so close to the equator that it has a warm, humid climate year-round? ¡Que interesante!</p></h5> <p class="dateText">
+                5/06/2020 by <u>User</u>
+            </p>
+            </div>
+          </div>
+
+      <div class="column3 stories">
+        <div class="content">
+          <h5> MY JOURNEYS IN <a href="/italy.html">ITALY</a><p class="postStory">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p><p class="postStory">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+            </p></h5> <p class="dateText">
+                5/06/2020 by <u>User</u>
+            </p>
+        </div>
+      </div>
+      <div class="column3 posts">
+            <div class="content">
+              <h5> A TRIP TO <a href="/philippines.html">THE PHILIPPINES</a><p class="postText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></h5>
+              <p class="dateText">
+                4/20/2020 by <u>User</u>
+            </p>
+            </div>
+      </div>
+      <div class="column3 photos">
+        <div class="content">
+          <img class="column2" src="https://i.pinimg.com/564x/24/72/92/247292ae19555f1167ae49492aa1c18d.jpg" alt="Car" style="width:100%">
+          <h4><a href="/newzealand.html">NEW ZEALAND'S</a> SOUTH ISLAND</h4>
+          <p class="postText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor..</p>
+          <p class="dateText">
+                4/15/2020 by <u>User</u>
+            </p>
+        </div>
+      </div>
+  </div>
+  
+  </section>
+  </body>
+</html>

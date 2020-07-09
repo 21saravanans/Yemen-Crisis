@@ -1,0 +1,1289 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 0px;
+  background-color: #d1dede;
+}
+
+ .button {
+  background-color: #ead2ac;
+  border-radius:10px;
+  color: #1d2015;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  word-spacing:2px;
+  margin-right: 0px;
+}
+
+.button:hover {
+  background-color: #d3b688;
+  transition: background-color 1s;
+}
+
+.logoTop{
+  width: 100px;
+  display:inline;
+  margin-left: 20px;
+}
+
+h3{
+  font-size: 40px;
+}
+
+.name {
+  display: inline;
+  font-style: italic;
+  font-size: 25px;
+  margin-left: 25px;
+  font-family: 'Fjalla One';
+  color: #df928e;
+  word-spacing:2px;
+}
+
+.navBar {
+  display: inline;
+  margin-left: 495px; 
+  font-family:'Fjalla One';
+  word-spacing: 40px;
+  background-color: #cf8882;
+  padding: 40px;
+  border-radius: 18px;
+  margin-right: 0px;
+  padding-right: 80px;
+  font-weight: bold;
+}
+
+.header {
+  display: inline-block;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-right: 0px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  flex-wrap: wrap;
+  border-right: 15px solid #ead2ac;
+  border-left: 15px solid #ead2ac;
+  margin-top: 100px;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+.column1{
+  width:  280px;
+  margin:4px;
+}
+
+.column{
+  display:flex
+  flex-direction:column;
+}
+
+.asian {
+  width: 280px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.title {
+  font-family: 'Oswald', sans-serif;
+  color: #1d2015;
+  font-size: 100px;
+  border: 4px solid #df928e;
+  padding: 20px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-right: 140px;
+  margin-left: 140px;
+}
+
+.title:before {
+  background: none;
+  border: 4px solid white;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  pointer-events: none;
+}
+
+
+
+.option {
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.countriestab {
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 1px 1px white;
+}
+
+.countriestab:hover {
+  color:#ffd8d6;
+  transition: color 1s;
+  font-weight: bold;
+}
+
+.communitytab:hover {
+  color:#ffd8d6;
+  transition: color 1s;
+  font-weight: bold;
+}
+
+.communitytab {
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 1px 1px white;
+}
+
+.option:hover {
+  color:#ffd8d6;
+  transition: color 1s;
+  font-weight: bold;
+}
+
+/* community page CSS */
+.postLayout {
+  border: 20px solid #bcc7c7;
+  border-radius: 50px;
+  background-color: #bcc7c7;
+  margin: 18px;
+}
+.makingPost{
+ font-family: 'Fjalla One'; 
+}
+.makingPostHeader{
+  font-family: 'Fjalla One'; 
+  font-size:25px;
+}
+.appendMessage{
+  font-family: 'Fjalla One'; 
+}
+
+.inputLabels{
+  font-family: 'Fjalla One'; 
+}
+
+
+.postPost{
+  border: 10px solid #c18681;
+  background-color:#bb7974;
+  padding: 20px;
+  padding-bottom: 40px;
+  padding-top: 10px;
+  margin: 10px;
+  font-family: 'Fjalla One';
+  font-size: 30px;
+  color: #f8f1f1;
+}
+.sidenav {
+  width: 600px;
+  height: 400px;
+  word-wrap: break-word;
+  position: fixed;
+  z-index: 1;
+  top: 150px;
+  left: 10px;
+  background: #a7b1b1;
+  overflow-x: hidden;
+  padding: 15px 0;
+  border-radius: 60px;
+  margin-top:10px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 70px;
+  color: white;
+  display: block;
+  font-family:'Fjalla One';
+}
+
+.sidenav a:hover {
+  font-weight: bold;
+}
+
+
+/* penpal CSS */
+.formPenPal {
+  background-color: #ead2ac;
+  border-radius: 20px;
+  margin-right: 70px;
+  margin-left: 50px;
+  padding-left: 100px;
+  padding-right: 200px;
+  padding-top: 20px;
+  padding-bottom:100px;
+  font-family: 'News Cycle';
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form {
+  padding-left: 50px;
+}
+
+.penpalTitle {
+  background-color: #1d2015;
+  color: #df928e;
+  font-family: 'Fjalla One';
+  border-radius: 10px;
+  margin-top:3px;
+  font-size: 40px;
+  padding: 20px;
+  padding-right:0px;
+  margin-right: 160px;
+  margin-left:0px;
+  display: flex;
+  flex-direction:row;
+}
+
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.imagePenPal{
+  width: 200px;
+  height:200px;
+  object-fit: cover;
+  margin: 20px;
+  margin-right: 10px;
+  border-radius: 20px;
+  border: 2px solid black;
+  padding:12px;
+}
+
+.pagePenPal {
+  display: flex;
+  flex-direction: row;
+}
+
+.submitPenPal {
+  background-color: #bb7974;
+  border-radius: 15px;
+  border: 2px solid #df928e;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: 'Fjalla One';
+  font-size: 25px;
+  color: #1d2015;
+  padding-bottom: 80px;
+  padding-top: 40px;
+}
+
+.submitPenPal:hover {
+  background-color: #df928e;
+  cursor:pointer;
+  transition: background-color 1s;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  font-family: 'News Cycle';
+  font-size: 17px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+.agePenPal {
+  width:100px;
+  height:30px;
+}
+
+.interestsPenPal {
+  width: 350px;
+  height: 100px;
+}
+
+.message{
+  font-family: 'Fjalla One';
+  font-style: italic;
+  font-color: black;
+  margin-top: 40px;
+  font-size: 16px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+
+/*country page? idk*/
+
+.countries{
+  font-family: 'Fjalla One';
+  margin-left:30px;
+/*   margin-bottom: 40px; */
+  font-size: 40px;
+  text-decoration: none;
+  color: #434343;
+}
+
+
+.countriesMap{
+  margin-top:200px;
+}
+
+.square:hover {
+  border: 25px solid #929b9b;
+  opacity: .5;
+}
+
+.countryTitle{
+  margin-top:80px;
+}
+
+.side-countries{
+  font-family:'News Cycle';
+  width: 110px;
+  position: fixed;
+  top: 212px;
+  margin-left:40px;
+  margin-top:40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.country-side:hover {
+  background-color: #df928e;
+  padding:5px;
+}
+
+.country-side {
+  font-family: 'Fjalla One';
+  text-decoration: none;
+  color: #595959;
+  font-size: 22px;
+  display: flex;
+  flex-direction: row;
+}
+
+.country-images {
+  display: flex;
+  flex-direction: column;
+}
+
+.countryRow1 {
+  display: flex;
+  flex-direction:row;
+/*   width: 80%; */
+  margin-left: 15px;
+  object-fit: cover;
+}
+
+.countryRow2 {
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* .argentinaOutline {
+  width: 80%;
+  height: 80%;
+  margin-left: 600px;
+}
+
+
+.ecuadorOutline {
+  height: 1000px;
+  width: 1000px;
+  object-fit: cover;
+}
+
+
+.ghanaOutline {
+  height: 1000px;
+  width: 1000px;
+  object-fit: cover;
+}
+
+
+.indiaOutline {
+  height: 1000px;
+  width: 1000px;
+  object-fit: cover;
+}
+
+
+.italyOutline {
+  height: 1000px;
+  width: 1000px;
+  object-fit: cover;
+}
+
+
+.kenyaOutline {
+  height: 1000px;
+  width: 1000px;
+  object-fit: cover;
+}
+
+
+.mexicoOutline {
+  height: 1000px;
+  width: 1000px;
+  object-fit: cover;
+}
+
+
+.newzealandOutline {
+  height: 1000px;
+  width: 1000px;
+  object-fit: cover;
+}
+
+
+.philippinesOutline {
+  height: 1000px;
+  width: 1000px;
+  object-fit: cover;
+}
+
+
+.southkoreaOutline {
+  height: 1000px;
+  width: 1000px;
+  object-fit: cover;
+} */
+
+/* argentina page */
+h4 {
+  font-family: 'Fjalla One';
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.argentinahead {
+  font-family: 'Fjalla One';
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.argentinaTitle {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Fjalla One';
+  font-size: 100px;
+  color: #6e7f7f;
+  margin-left:100px;
+}
+
+.argentinaPage {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+}
+
+.argentina-info {
+  margin-right: 100px;
+  font-family: 'Fjalla One';
+  color: black;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.argentinaFlag{
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+  margin-left: 50px;
+  margin-top: 85px;
+  display: flex;
+}
+
+.sideBarTitles {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 20px;
+  margin-top:20px;
+}
+
+.sideBarTitles:hover {
+  text-shadow: 1px 1px white;
+}
+
+.row-argentina {
+  display: flex;
+  flex-direction: row;
+}
+
+.country-argentina {
+
+}
+
+.argentinaSideOverview {
+  display: flex;
+  flex-direction: column;
+  background-color: #6e7f7f;
+  border-radius: 18px;
+  margin:20px;
+  margin-left:100px;
+  margin-right: 100px;
+  padding: 50px;
+/*   padding-bottom: -5000px; */
+  margin-bottom: 4000px;
+  font-family: 'Fjalla One';
+  font-size: 35px;
+  color: white;
+}
+
+.ecuadorhead {
+  font-family: 'Fjalla One';
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+}
+
+
+.ecuadorTitle {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  font-family: 'Fjalla One';
+  font-size: 100px;
+  color: #6e7f7f;
+  margin-left:100px;
+}
+
+.ecuadorPage {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+}
+
+.ecuador-info {
+  margin-right: 100px;
+  font-family: 'Fjalla One';
+  color: black;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.ecuadorFlag{
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+  margin-left: 50px;
+  display: flex;
+  margin-top: 85px;
+}
+
+.sideBarTitles {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 20px;
+  margin-top:20px;
+}
+
+.row-ecuador {
+  display: flex;
+  flex-direction: row;
+}
+
+.ecuadorSideOverview {
+  display: flex;
+  flex-direction: column;
+  background-color: #6e7f7f;
+  border-radius: 18px;
+  margin:20px;
+  margin-left:100px;
+  margin-right: 100px;
+  padding: 50px;
+/*   padding-bottom: -5000px; */
+  margin-bottom: 4000px;
+  font-family: 'Fjalla One';
+  font-size: 35px;
+  color: white;
+}
+
+.ghanahead {
+  font-family: 'Fjalla One';
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+}
+
+
+.ghanaTitle {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  font-family: 'Fjalla One';
+  font-size: 100px;
+  color: #6e7f7f;
+  margin-left:100px;
+}
+
+.ghanaPage {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+}
+
+.ghana-info {
+  margin-right: 100px;
+  font-family: 'Fjalla One';
+  color: black;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.ghanaFlag{
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+  margin-left: 50px;
+  display: flex;
+  margin-top: 85px;
+}
+
+.sideBarTitles {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 20px;
+  margin-top:20px;
+}
+
+.row-ghana {
+  display: flex;
+  flex-direction: row;
+}
+
+.ghanaSideOverview {
+  display: flex;
+  flex-direction: column;
+  background-color: #6e7f7f;
+  border-radius: 18px;
+  margin:20px;
+  margin-left:100px;
+  margin-right: 100px;
+  padding: 50px;
+/*   padding-bottom: -5000px; */
+  margin-bottom: 4000px;
+  font-family: 'Fjalla One';
+  font-size: 35px;
+  color: white;
+}
+
+.indiahead {
+  font-family: 'Fjalla One';
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+}
+
+
+.indiaTitle {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  font-family: 'Fjalla One';
+  font-size: 100px;
+  color: #6e7f7f;
+  margin-left:100px;
+}
+
+.indiaPage {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+}
+
+.india-info {
+  margin-right: 100px;
+  font-family: 'Fjalla One';
+  color: black;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.indiaFlag{
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+  margin-left: 50px;
+  display: flex;
+  margin-top:85px;
+}
+
+.sideBarTitles {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 20px;
+  margin-top:20px;
+}
+
+.row-india {
+  display: flex;
+  flex-direction: row;
+}
+
+.indiaSideOverview {
+  display: flex;
+  flex-direction: column;
+  background-color: #6e7f7f;
+  border-radius: 18px;
+  margin:20px;
+  margin-left:100px;
+  margin-right: 100px;
+  padding: 50px;
+/*   padding-bottom: -5000px; */
+  margin-bottom: 4500px;
+  font-family: 'Fjalla One';
+  font-size: 35px;
+  color: white;
+}
+
+.italyhead {
+  font-family: 'Fjalla One';
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+}
+
+
+.italyTitle {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  font-family: 'Fjalla One';
+  font-size: 100px;
+  color: #6e7f7f;
+  margin-left:100px;
+}
+
+.italyPage {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+}
+
+.italy-info {
+  margin-right: 100px;
+  font-family: 'Fjalla One';
+  color: black;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.italyFlag{
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+  margin-left: 50px;
+  display: flex;
+  margin-top:85px;
+}
+
+.sideBarTitles {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 20px;
+  margin-top:20px;
+}
+
+.row-italy {
+  display: flex;
+  flex-direction: row;
+}
+
+.italySideOverview {
+  display: flex;
+  flex-direction: column;
+  background-color: #6e7f7f;
+  border-radius: 18px;
+  margin:20px;
+  margin-left:100px;
+  margin-right: 100px;
+  padding: 50px;
+/*   padding-bottom: -5000px; */
+  margin-bottom: 4000px;
+  font-family: 'Fjalla One';
+  font-size: 35px;
+  color: white;
+}
+
+.kenyahead {
+  font-family: 'Fjalla One';
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+}
+
+
+.kenyaTitle {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  font-family: 'Fjalla One';
+  font-size: 100px;
+  color: #6e7f7f;
+  margin-left:100px;
+}
+
+.kenyaPage {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+}
+
+.kenya-info {
+  margin-right: 100px;
+  font-family: 'Fjalla One';
+  color: black;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.kenyaFlag{
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+  margin-left: 50px;
+  display: flex;
+  margin-top:85px;
+}
+
+.sideBarTitles {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 20px;
+  margin-top:20px;
+}
+
+.row-kenya {
+  display: flex;
+  flex-direction: row;
+}
+
+.kenyaSideOverview {
+  display: flex;
+  flex-direction: column;
+  background-color: #6e7f7f;
+  border-radius: 18px;
+  margin:20px;
+  margin-left:100px;
+  margin-right: 100px;
+  padding: 50px;
+/*   padding-bottom: -5000px; */
+  margin-bottom: 4300px;
+  font-family: 'Fjalla One';
+  font-size: 35px;
+  color: white;
+}
+
+.philippineshead {
+  font-family: 'Fjalla One';
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+}
+
+
+.philippinesTitle {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  font-family: 'Fjalla One';
+  font-size: 100px;
+  color: #6e7f7f;
+  margin-left:100px;
+}
+
+.philippinesPage {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+}
+
+.philippines-info {
+  margin-right: 100px;
+  font-family: 'Fjalla One';
+  color: black;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.philippinesFlag{
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+  margin-left: 50px;
+  display: flex;
+  margin-top:85px;
+}
+
+.sideBarTitles {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 20px;
+  margin-top:20px;
+}
+
+.row-philippines {
+  display: flex;
+  flex-direction: row;
+}
+
+.philippinesSideOverview {
+  display: flex;
+  flex-direction: column;
+  background-color: #6e7f7f;
+  border-radius: 18px;
+  margin:20px;
+  margin-left:100px;
+  margin-right: 100px;
+  padding: 50px;
+/*   padding-bottom: -5000px; */
+  margin-bottom: 4300px;
+  font-family: 'Fjalla One';
+  font-size: 35px;
+  color: white;
+}
+
+.mexicohead {
+  font-family: 'Fjalla One';
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+}
+
+
+.mexicoTitle {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  font-family: 'Fjalla One';
+  font-size: 100px;
+  color: #6e7f7f;
+  margin-left:100px;
+}
+
+.mexicoPage {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+}
+
+.mexico-info {
+  margin-right: 100px;
+  font-family: 'Fjalla One';
+  color: black;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.mexicoFlag{
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+  margin-left: 50px;
+  display: flex;
+  margin-top:85px;
+}
+
+.sideBarTitles {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 20px;
+  margin-top:20px;
+}
+
+.row-mexico {
+  display: flex;
+  flex-direction: row;
+}
+
+.mexicoSideOverview {
+  display: flex;
+  flex-direction: column;
+  background-color: #6e7f7f;
+  border-radius: 18px;
+  margin:20px;
+  margin-left:100px;
+  margin-right: 100px;
+  padding: 50px;
+/*   padding-bottom: -5000px; */
+  margin-bottom: 4500px;
+  font-family: 'Fjalla One';
+  font-size: 35px;
+  color: white;
+}
+
+.southkoreahead {
+  font-family: 'Fjalla One';
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+}
+
+
+.southkoreaTitle {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  font-family: 'Fjalla One';
+  font-size: 100px;
+  color: #6e7f7f;
+  margin-left:100px;
+}
+
+.southkoreaPage {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+}
+
+.southkorea-info {
+  margin-right: 100px;
+  font-family: 'Fjalla One';
+  color: black;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.southkoreaFlag{
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+  margin-left: 50px;
+  display: flex;
+  margin-top:85px;
+}
+
+.sideBarTitles {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 20px;
+  margin-top:20px;
+}
+
+.row-southkorea {
+  display: flex;
+  flex-direction: row;
+}
+
+.southkoreaSideOverview {
+  display: flex;
+  flex-direction: column;
+  background-color: #6e7f7f;
+  border-radius: 18px;
+  margin:20px;
+  margin-left:100px;
+  margin-right: 100px;
+  padding: 50px;
+/*   padding-bottom: -5000px; */
+  margin-bottom: 3500px;
+  font-family: 'Fjalla One';
+  font-size: 35px;
+  color: white;
+}
+
+.newzealandhead {
+  font-family: 'Fjalla One';
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+}
+
+
+.newzealandTitle {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  font-family: 'Fjalla One';
+  font-size: 100px;
+  color: #6e7f7f;
+  margin-left:100px;
+}
+
+.newzealandPage {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+}
+
+.newzealand-info {
+  margin-right: 100px;
+  font-family: 'Fjalla One';
+  color: black;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.newzealandFlag{
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+  margin-left: 50px;
+  display: flex;
+  margin-top:85px;
+}
+
+.sideBarTitles {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 20px;
+  margin-top:20px;
+}
+
+.row-newzealand {
+  display: flex;
+  flex-direction: row;
+}
+
+.newzealandSideOverview {
+  display: flex;
+  flex-direction: column;
+  background-color: #6e7f7f;
+  border-radius: 18px;
+  margin:20px;
+  margin-left:100px;
+  margin-right: 100px;
+  padding: 50px;
+/*   padding-bottom: -5000px; */
+  margin-bottom: 4800px;
+  font-family: 'Fjalla One';
+  font-size: 35px;
+  color: white;
+}
+
+
+/*posts etc*/
+
+* {
+  box-sizing: border-box;
+}
+
+.postBody {
+  padding: 20px;
+  font-family: 'Fjalla One';
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.userUploads {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.rowGallery {
+/*   display: flex;
+  flex-direction: row;
+  justify-content:center;
+  flex-wrap: wrap; */
+  margin: 8px -16px;
+}
+
+.rowGallery,
+.rowGallery > .column3 {
+  padding: 8px;
+}
+
+.column3 {
+  float: left;
+  width: 33.33%;
+  display: none; 
+}
+
+
+.rowGallery:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.content {
+  background-color: #f1f5f5;
+  border-radius: 50px;
+  padding: 30px;
+  height: 800px;
+  width: 480px;
+}
+
+
+.show {
+  display: block;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  font-family: 'Fjalla One';
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+   color: white;
+} 
+
+.column2{
+  height: 500px;
+  width: 230px;
+  object-fit: cover;
+/*   margin-bottom: 5px; */
+}
+
+.postText{
+/*   margin-bottom: 5px; */
+  font-size: 25px;
+  color:#929b9b;
+}
+
+.postStory{
+  font-size:18px;
+  color:#929b9b;
+}
+h5{
+  margin: 28px;
+  font-size: 40px;
+  color: #686f6f;
+}
+
+.dateText{
+  text-align: right;
+  color: #bcc7c7;
+}
+
+h4{
+  font-size: 40px;
+  color: #686f6f;
+}
