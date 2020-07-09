@@ -1,0 +1,620 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #2b2d42;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  margin-bottom: 0px;
+  font-size: 120px;
+  letter-spacing: 5px;
+  word-spacing: 8px;
+  color:#d90429;
+  text-shadow: 2px 2px #edf2f4;
+}
+
+h4 {
+  font-family: 'Khand', sans-serif;
+  margin-top: 0px;
+  font-size: 30px;
+  color: #8d99ae;
+}
+
+.title {
+  margin-top: 190px;
+  border: 2px solid white;
+  margin-left: 350px;
+  margin-right: 350px;
+  outline: 5px dashed #8d99ae;
+  border-radius: 5px;
+  margin-bottom: 100px;
+}
+
+.option {
+  text-decoration: none;
+  margin-right: 80px;
+  margin-left: 80px;
+  font-size: 20px;
+  font-family: 'Fjalla One';
+  text-transform: uppercase;
+  color: #edf2f4;
+}
+
+.option:hover {
+  background-color: #ef233c;
+  padding: 15px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.navBar {
+  margin-top: 60px;
+}
+
+.panel{
+  display: flex;
+  flex-direction: column;
+  background-color: #8d99ae;
+  border-radius: 18px;
+  margin:20px;
+  margin-left:100px;
+  margin-right: 100px;
+  padding: 50px;
+/*   padding-bottom: -5000px; */
+  font-family: 'Fjalla One';
+  font-size: 35px;
+  color: #ef233c;
+  margin-top: 10px;
+  margin-bottom: 1500px;
+  
+}
+.sideBar {
+  text-decoration: none;
+  color: #840032;
+  margin-bottom: 20px;
+  margin-top:20px;
+  margin-right: 0px;
+}
+
+.sideBar:hover {
+  text-shadow: 1px 1px #840032;
+}
+
+.infoPage {
+  display: flex;
+  flex-direction: row;
+}
+
+h3{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
+  color: #d90429;
+  opacity:0.87;
+  margin-bottom: 5px;
+}
+
+.yemenWar {
+ font-family: 'Bebas Neue', cursive;
+  font-size: 100px;
+  margin-left: 80px;
+  color: #d90429;
+  opacity:0.87;
+  margin-bottom: 5px;
+  text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+}
+
+.info {
+  font-family: 'News Cycle', sans-serif;
+  color: #edf2f4;
+  font-size: 20px;
+  margin-right: 40px;
+  margin-bottom: 0px;
+}
+
+.person {
+  width: 60px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.stat1 {
+  display: flex;
+  flex-direction: row;
+  background-color: #8d99ae;
+  padding: 25px;
+  font-family: 'Fjalla One';
+  border-radius: 18px;
+  align-items: center;
+  word-spacing: 3px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  margin-left:40px;
+  
+}
+
+h5 {
+  font-size: 30px;
+  color: #d62828;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+h6 {
+  font-size: 20px;
+  color: #293241;
+}
+
+.column{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.stat2 {
+  display: flex;
+  flex-direction: row;
+  background-color: #ef233c;
+  padding: 25px;
+  font-family: 'Fjalla One';
+  border-radius: 18px;
+  align-items: center;
+  word-spacing: 3px;
+  opacity: 0.7;
+  margin-top: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.hospital {
+  width:100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.alt1 {
+  font-size: 20px;
+  color: #8d99ae;
+  font-weight: bold;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.alt2 {
+  font-size: 20px;
+  color: #293241;
+}
+
+.stat3 {
+  display: flex;
+  flex-direction: row;
+  background-color: #ef233c;
+  padding: 25px;
+  font-family: 'Fjalla One';
+  border-radius: 18px;
+  align-items: center;
+  word-spacing: 3px;
+  opacity: 0.7;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  
+}
+
+.water {
+  width: 80px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.stat4 {
+  display: flex;
+  flex-direction: row;
+  background-color: #8d99ae;
+  padding: 25px;
+  font-family: 'Fjalla One';
+  border-radius: 18px;
+  align-items: center;
+  word-spacing: 3px;
+  margin-top: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.mask {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.stat5 {
+  display: flex;
+  flex-direction: row;
+  background-color: #8d99ae;
+  padding: 25px;
+  font-family: 'Fjalla One';
+  border-radius: 18px;
+  align-items: center;
+  word-spacing: 3px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.bacteria {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.stat6 {
+  display: flex;
+  flex-direction: row;
+  background-color: #ef233c;
+  padding: 25px;
+  font-family: 'Fjalla One';
+  border-radius: 18px;
+  align-items: center;
+  word-spacing: 3px;
+  opacity: 0.7;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.food {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.stats {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 100px;
+  color: #d90429;
+  opacity:0.87;
+  margin-bottom: 5px;
+   color: #d90429;
+  text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+}
+
+.warPage {
+  background-color: #ef233c;
+  padding: 15px;
+  border-radius: 2px;
+  text-decoration: none;
+  margin-right: 80px;
+  margin-left: 80px;
+  font-size: 20px;
+  font-family: 'Fjalla One';
+  text-transform: uppercase;
+  color: #edf2f4;
+}
+
+.statPage {
+  text-decoration: none;
+  margin-right: 80px;
+  margin-left: 80px;
+  font-size: 20px;
+  font-family: 'Fjalla One';
+  text-transform: uppercase;
+  color: #edf2f4;
+  background-color: #ef233c;
+  padding: 15px;
+  border-radius: 2px;
+}
+
+.importPage {
+  text-decoration: none;
+  margin-right: 80px;
+  margin-left: 80px;
+  font-size: 20px;
+  font-family: 'Fjalla One';
+  text-transform: uppercase;
+  color: #edf2f4;
+  background-color: #ef233c;
+  padding: 15px;
+  border-radius: 2px;
+}
+
+.chartContainer {
+}
+
+.chart1Description {
+  font-family: 'News Cycle', sans-serif;
+  color: #edf2f4;
+  font-size: 20px;
+  margin-right: 60px;
+  margin-left: 60px;
+  font-style: italic;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.backToHome {
+  font-family: 'Fjalla One';
+  color: #8d99ae;
+  text-decoration: none;
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.backToHome:hover {
+  background-color: #ef233c;
+  padding: 15px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.chart2Description {
+  font-family: 'News Cycle', sans-serif;
+  color: #edf2f4;
+  font-size: 20px;
+  margin-right: 60px;
+  margin-left: 60px;
+  font-style: italic;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.foodPage {
+   text-decoration: none;
+  margin-right: 80px;
+  margin-left: 80px;
+  font-size: 20px;
+  font-family: 'Fjalla One';
+  text-transform: uppercase;
+  color: #edf2f4;
+  background-color: #ef233c;
+  padding: 15px;
+  border-radius: 2px;
+}
+
+.foodEmergency {
+  font-family: 'News Cycle', sans-serif;
+  color: #edf2f4;
+  font-size: 20px;
+  margin-right: 120px;
+  margin-left: 120px;
+  margin-top: 50px;
+  font-style: italic;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #69140e;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.foodImages {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.foodPic {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.foodDown {
+  font-family: 'Fjalla One';
+  font-size: 30px;
+  color: #8d99ae;
+}
+
+.arrow {
+  border: solid #ef233c;
+  border-width: 0 20px 20px 0;
+  display: inline-block;
+  padding: 20px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.chart3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.introduction{
+  font-family: 'Fjalla One';
+  font-size: 20px;
+  color: #2b2d42;
+  background-color: #edf2f4;
+  padding:20px;
+  border-radius: 20px;
+  margin-right: 0px;
+  margin-bottom: 300px;
+  margin-top: 100px;
+}
+
+.importsPage {
+   text-decoration: none;
+  margin-right: 80px;
+  margin-left: 80px;
+  font-size: 20px;
+  font-family: 'Fjalla One';
+  text-transform: uppercase;
+  color: #edf2f4;
+  background-color: #ef233c;
+  padding: 15px;
+  border-radius: 2px;
+}
+
+.optionFood {
+  font-family:'Fjalla One';
+  font-size: 60px;
+  color: #8d99ae;
+  margin-right: 80px;
+  
+  text-decoration: none;
+}
+
+.optionFood:hover {
+  background-color: #003049;
+  padding: 15px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.optionBar {
+  display: flex;
+  justify-content: center;
+  margin-top: 280px;
+  margin-bottom:280px;
+  
+}
+
+.lastCharts {
+  display: flex;
+}
+
+.resourcesPage {
+  text-decoration: none;
+  margin-right: 80px;
+  margin-left: 80px;
+  font-size: 20px;
+  font-family: 'Fjalla One';
+  text-transform: uppercase;
+  color: #edf2f4;
+  background-color: #ef233c;
+  padding: 15px;
+  border-radius: 2px;
+}
+
+.video {
+  display: flex;
+  flex:row;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.resourceGraphics {
+  width: 250px;
+  height: 150px;
+  margin-left: 100px;
+  margin-right:50px;
+}
+
+.resourceTitles {
+  font-family: 'Fjalla One';
+  font-size: 50px;
+  color: #e0fbfc;
+}
+
+.resource {
+  font-family: 'Fjalla One';
+  font-size: 30px;
+  color: #edf2f4;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.resource:hover{
+  background-color: #d90429;
+  padding: 15px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.column1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.arrowResources {
+  margin-left: 35px;
+  margin-right: 35px;
+  color: #bb4430;
+  font-family: 'Fjalla One';
+  font-size: 40px;
+}
+
+.articles {
+  display: flex;
+  flex:row;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.newspaperGraphics {
+  width: 200px;
+  height: 250px;
+  margin-left: 100px;
+  margin-right:100px;
+}
+
+.donate {
+  display: flex;
+  flex:row;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.moneyGraphics {
+  width: 250px;
+  height: 250px;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+.petition {
+  display: flex;
+  flex:row;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.petitionGraphics {
+  width: 250px;
+  height: 250px;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+.importTitle { 
+  font-family: 'Bebas Neue', cursive;
+  font-size: 100px;
+  color: #d90429;
+  opacity:0.87;
+  margin-bottom: 5px;
+   color: #d90429;
+  text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+  margin-top: 80px;
+}
+
+.slideshow {
+  margin-top: 100px;
+}
+
+.rowImage {
+  display: flex;
+  flex-direction: row;
+}  
+.column2 {
+  width: 250px;
+  height:250px;
+  object-fit: cover;
+  margin-left: 10px;
+  margin-right: 10px;
+}
